@@ -1,0 +1,26 @@
+# 原始聊天记录 —— 绝对不要提交
+*.json
+*.db
+*.db-journal
+*.db-wal
+*.sqlite
+*.sqlite3
+*.csv
+*.xlsx
+
+# 保留工具自带的配置示例
+!tools/themes.txt
+
+# 个人分析产出（含真实对话原文）
+/private/
+/analysis/
+/output/
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+__pycache__/
+*.py[cod]
